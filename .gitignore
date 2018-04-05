@@ -1,0 +1,6 @@
+.vscode/
+.idea/
+data/
+saved_model/
+export/
+log/
