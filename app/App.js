@@ -32,7 +32,7 @@ export default class App extends Component<Props> {
       <Container>
         <Header>
           <Body>
-            <Title>TfServe MNIST</Title>
+            <Title>TfServing MNIST</Title>
           </Body>
         </Header>
         <Content>
