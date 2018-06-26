@@ -61,7 +61,7 @@ Run the `run_tf_server.sh` to start the TensowFlow server.
 
 There is a Express.js server in `rest_server` directory which provides RESTful API for client. 
 
-In `rest_server` directory, change the value of `config.tf_server` in [config.js](https://github.com/nex3z/tfserving-mnist/blob/master/run_tf_server.sh) to the TensorFlow server address. You can test the server to check if everything is properly set up by running `npm test`. Then start the server.
+In `rest_server` directory, change the value of `config.tf_server` in [config.js](https://github.com/nex3z/tfserving-mnist/blob/master/rest_server/config.js) to the TensorFlow server address. You can test the server to check if everything is properly set up by running `npm test`. Then start the server.
 
 ```
 node app.js
