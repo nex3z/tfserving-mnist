@@ -47,7 +47,7 @@ python export.py --model_dir ./saved_model --version 1 --export_dir ./export
 
 In the export directory, a folder will be created with the name of the version number, for example `/export/1`, in which you will find the exported model files.
 
-### Step 3. Strat TensorFlow Server
+### Step 3. Start TensorFlow Server
 
 Install TensorFlow Serving by following the [instructions](https://www.tensorflow.org/serving/setup). Make sure you can run the `tensorflow_model_server` command in terminal. 
 
